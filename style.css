@@ -1,0 +1,94 @@
+/* taken from RicBent's website since I don't feel like writing my own lmao */
+
+html
+{
+	overflow-y: auto;
+}
+
+body
+{
+	padding: 0;
+	overflow: hidden;
+	
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;	
+	background-image: url("bg.png");
+}
+
+.centered
+{
+	text-align: center;
+}
+
+table
+{
+	border-spacing: 0;
+	margin: 0;
+}
+
+table td
+{
+	padding: 0;
+}
+
+.gap
+{
+     padding-right: 10px;
+}
+
+
+a:link, a:visited
+{
+    color: rgb(145, 145, 252);
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: white;
+}
+
+table.box
+{
+	border-spacing: 0;
+	margin: 0;
+	width: 100%;
+	
+	background: rgba(30, 30, 46, 0.95);
+	border-collapse: collapse;	
+	border-radius: 8px;
+	margin: 0.5em 0em 1em 0em;
+}
+
+table.box th
+{
+	background: rgb(58, 58, 136);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+table.boxForAnActualFuckingTable
+{
+	border-spacing: 0;
+	margin: 0;
+	
+	background: rgba(30, 30, 46, 0.95);
+	border-radius: 8px;
+	margin: 0.5em 0em 1em 0em;
+}
+
+table.boxForAnActualFuckingTable th
+{
+	background: rgb(58, 58, 136);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+td.boxcontent
+{
+	padding: 10px;
+}
